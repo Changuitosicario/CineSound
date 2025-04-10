@@ -1,0 +1,69 @@
+:root {
+    --color-bg: #766c5e;
+    --color-primary: #413d3d;     /* tono vino rosado */
+    --color-secondary: #617d56;   /* mostaza suave */
+    --color-tertiary: #cdcecb;    /* gris suave */
+    --color-accent: #677c67;      /* verde olivo */
+    --color-dark: #473f3f;
+    --color-light: #e4d8c4;
+    --color-hover: #504e49;
+  
+    --font-main: 'Georgia', serif;
+    --font-alt: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-dark);
+    font-family: var(--font-main);
+  }
+  
+  h1 {
+    font-family: var(--font-main);
+    color: var(--color-tertiary);
+    font-size: 2.5rem;
+  }
+  
+  h2, h3 {
+    font-family: var(--font-main);
+    color: var(--color-primary);
+  }
+  
+  button {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-family: var(--font-alt);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--color-hover);
+    color: var(--color-dark);
+  }
+  
+  input[type="text"], .search-bar {
+    padding: 0.5rem;
+    border: 2px solid var(--color-secondary);
+    border-radius: 8px;
+    font-family: var(--font-alt);
+    background-color: var(--color-light);
+    color: var(--color-dark);
+  }
+  
+  .card {
+    background-color: var(--color-light);
+    border: 1px solid #bebcb1;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
